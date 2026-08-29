@@ -1,0 +1,46 @@
+# Authenticator inputs and plaintext secret exports
+/bitwarden-authenticator-import.json
+*-authenticator-import.json
+*.jpg
+*.jpeg
+*.png
+*.webp
+!public/og.png
+/private/
+/qr-codes/
+*.otpauth-migration.txt
+
+# Web dependencies and generated site
+node_modules/
+dist/
+coverage/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.tsbuildinfo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging output
+build/
+*.egg-info/
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
