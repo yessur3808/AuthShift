@@ -214,6 +214,12 @@ builds, and deploys the static site whenever the `main` branch is updated.
 4. Push to `main`, or manually run **Deploy AuthShift to GitHub Pages** from the
    repository’s **Actions** tab.
 
+Pages must be enabled before the workflow runs for the first time. If the
+**Configure GitHub Pages** step reports `Get Pages site failed` or `Not Found`,
+repeat steps 2–3, save the Pages setting, and then re-run the failed workflow.
+The workflow intentionally does not request an administrator personal access
+token merely to enable Pages automatically.
+
 Vite uses relative asset paths, so the build works for both
 `username.github.io` sites and `username.github.io/repository-name` project
 sites. The workflow injects the final Pages URL into the social preview
