@@ -1,0 +1,107 @@
+{
+  "tab_rain": [
+    { "file": "01-window-rain.mp3", "title": "Window rain", "note": "Rain tapping close to the glass", "sourceTitle": "File:Rain against the window.ogg", "start": 4 },
+    { "file": "02-distant-downpour.mp3", "title": "Distant downpour", "note": "A wide summer shower with soft thunder", "sourceTitle": "File:Light Rain Distant Thunder July 5th 2016.wav", "start": 12 },
+    { "file": "03-roof-droplets.mp3", "title": "Roof droplets", "note": "Water running steadily through a gutter", "sourceTitle": "File:Gutter.ogg", "start": 5 },
+    { "file": "04-night-shower.mp3", "title": "Night shower", "note": "Dense rainfall with an even texture", "sourceTitle": "File:Rain (1).ogg", "start": 0 },
+    { "file": "05-storm-hush.mp3", "title": "Storm hush", "note": "Rain under low, distant thunder", "sourceTitle": "File:Rain and thunder (1).ogg", "start": 0 }
+  ],
+  "tab_coffee_shop": [
+    { "file": "01-morning-cafe.mp3", "title": "Morning café", "note": "A spacious café settling into the day", "sourceTitle": "File:Cafe ambiance.ogg", "start": 84 },
+    { "file": "02-quiet-counter.mp3", "title": "Quiet counter", "note": "Low restaurant room tone and table sounds", "sourceTitle": "File:Restaurant ambience.ogg", "start": 5 },
+    { "file": "03-corner-table.mp3", "title": "Corner table", "note": "Relaxed café conversation at a distance", "sourceTitle": "File:Rustige sfeer in een café - SoundCloud - Beeld en Geluid.ogg", "start": 18 },
+    { "file": "04-late-espresso.mp3", "title": "Late espresso", "note": "A close espresso machine and cup ritual", "sourceTitle": "File:Sonido de una cafetera Nespresso modelo Inissia preparando un café.wav", "start": 0 },
+    { "file": "05-soft-chatter.mp3", "title": "Soft chatter", "note": "A warm crowd murmur without a focal voice", "sourceTitle": "File:Publiek in Café het Koetshuis - SoundCloud - Beeld en Geluid.ogg", "start": 4 }
+  ],
+  "tab_waterfall": [
+    { "file": "01-misty-falls.mp3", "title": "Misty falls", "note": "Falling water with a light forest edge", "sourceTitle": "File:Waterfall and birds sounds.wav", "start": 0 },
+    { "file": "02-river-ledge.mp3", "title": "River ledge", "note": "A close natural cascade over rock", "sourceTitle": "File:Catarata Paqchaq.flac", "start": 0 },
+    { "file": "03-deep-cascade.mp3", "title": "Deep cascade", "note": "Full-bodied waterfall wash", "sourceTitle": "File:Catarata Pacchacc.flac", "start": 8 },
+    { "file": "04-forest-water.mp3", "title": "Forest water", "note": "Long-form waterfall ambience", "sourceTitle": "File:Waterfall Gully, South Australia.ogg", "start": 120 },
+    { "file": "05-distant-torrent.mp3", "title": "Distant torrent", "note": "A softer fall heard from the bank", "sourceTitle": "File:Water fall.ogg", "start": 0 }
+  ],
+  "tab_lightning": [
+    { "file": "01-far-thunder.mp3", "title": "Far thunder", "note": "An approaching summer storm", "sourceTitle": "File:Thunderstorm after hot summer day 17 minutes 01 of 04.ogg", "start": 20 },
+    { "file": "02-electric-rain.mp3", "title": "Electric rain", "note": "Rain and rolling thunder overhead", "sourceTitle": "File:Thunderstorm after hot summer day 17 minutes 02 of 04.ogg", "start": 32 },
+    { "file": "03-rolling-storm.mp3", "title": "Rolling storm", "note": "Long thunder tails across the sky", "sourceTitle": "File:Thunderstorm after hot summer day 17 minutes 03 of 04.ogg", "start": 48 },
+    { "file": "04-night-horizon.mp3", "title": "Night horizon", "note": "A storm receding into the distance", "sourceTitle": "File:Thunderstorm after hot summer day 17 minutes 04 of 04.ogg", "start": 64 },
+    { "file": "05-after-the-flash.mp3", "title": "After the flash", "note": "Distinct thunderbolts in open air", "sourceTitle": "File:Storm thunderbolts.ogg", "start": 16 }
+  ],
+  "tab_wind": [
+    { "file": "01-open-field.mp3", "title": "Open field", "note": "Steady natural wind with open space", "sourceTitle": "File:Wind - SoundCloud - Beeld en Geluid.ogg", "start": 18 },
+    { "file": "02-high-valley.mp3", "title": "High valley", "note": "A deeper wind with long gusts", "sourceTitle": "File:Het laag huilen van de wind - SoundCloud - Beeld en Geluid.ogg", "start": 80 },
+    { "file": "03-window-breeze.mp3", "title": "Window breeze", "note": "Soft, even air with close detail", "sourceTitle": "File:Het ruisen van de wind - SoundCloud - Beeld en Geluid.ogg", "start": 34 },
+    { "file": "04-coastal-air.mp3", "title": "Coastal air", "note": "Wind moving through tall pine trees", "sourceTitle": "File:Wind in sparren in het Vijlenerbos - SoundCloud - luc de bruijn.ogg", "start": 26 },
+    { "file": "05-night-gusts.mp3", "title": "Night gusts", "note": "Stronger gusts with a dark, wide tone", "sourceTitle": "File:Wind sounds 2020-05-10 1625.mp3", "start": 110 }
+  ],
+  "tab_fire": [
+    { "file": "01-small-hearth.mp3", "title": "Small hearth", "note": "A compact campfire crackling nearby", "sourceTitle": "File:Campfire sound ambience.ogg", "start": 0 },
+    { "file": "02-cedar-crackle.mp3", "title": "Cedar crackle", "note": "Dry wood and grass catching flame", "sourceTitle": "File:Dry grass burning in open fireplace.ogg", "start": 0 },
+    { "file": "03-low-embers.mp3", "title": "Low embers", "note": "Irregular wood pops and low crackle", "sourceTitle": "File:Bones breaking wood fire ice crackling.ogg", "start": 7 },
+    { "file": "04-cabin-fire.mp3", "title": "Cabin fire", "note": "A close forge fire with a steady bed", "sourceTitle": "File:WWS Fireoftheforge.ogg", "start": 0 },
+    { "file": "05-midnight-glow.mp3", "title": "Midnight glow", "note": "Soft forge air beneath glowing coals", "sourceTitle": "File:WWS Bloweroftheforge.ogg", "start": 0 }
+  ],
+  "tab_snow": [
+    { "file": "01-winter-hush.mp3", "title": "Winter hush", "note": "Icy wind across an exposed winter space", "sourceTitle": "File:IJzige wind - SoundCloud - Beeld en Geluid.ogg", "start": 74 },
+    { "file": "02-soft-flurry.mp3", "title": "Soft flurry", "note": "Cold wind inside a passing snow shower", "sourceTitle": "File:IJzige wind met een sneeuwbui - SoundCloud - Beeld en Geluid.ogg", "start": 92 },
+    { "file": "03-frozen-air.mp3", "title": "Frozen air", "note": "Slow footsteps pressed into fresh snow", "sourceTitle": "File:Walking through snow.mp3", "start": 0 },
+    { "file": "04-distant-wind.mp3", "title": "Distant wind", "note": "Crisp boots moving over crunchy snow", "sourceTitle": "File:Crunchy Snow Walking Sound Effect - Human Sounds.opus", "start": 0 },
+    { "file": "05-snow-at-night.mp3", "title": "Snow at night", "note": "A lone walker crossing a snowy path", "sourceTitle": "File:Man walking on the snow.ogg", "start": 0 }
+  ],
+  "tab_street": [
+    { "file": "01-after-midnight.mp3", "title": "After midnight", "note": "A broad city street at a quiet hour", "sourceTitle": "File:Sagetyrtle - citystreet3 (cc0) (freesound).mp3", "start": 24 },
+    { "file": "02-wet-pavement.mp3", "title": "Wet pavement", "note": "Urban traffic under a rainy afternoon", "sourceTitle": "File:Urban Street on a Rainy Afternoon.flac", "start": 160 },
+    { "file": "03-distant-traffic.mp3", "title": "Distant traffic", "note": "A highway heard from the bridge center", "sourceTitle": "File:Highway from bridge center.ogg", "start": 26 },
+    { "file": "04-quiet-crossing.mp3", "title": "Quiet crossing", "note": "Sunday traffic with plenty of space", "sourceTitle": "File:Sunday in the city street noise1.ogg", "start": 48 },
+    { "file": "05-city-hum.mp3", "title": "City hum", "note": "A low continuous road wash", "sourceTitle": "File:Highway from bridge right side.ogg", "start": 14 }
+  ],
+  "tab_leaves": [
+    { "file": "01-aspen-canopy.mp3", "title": "Aspen canopy", "note": "Leaves moving naturally in steady wind", "sourceTitle": "File:Leaves in the wind (Gravity Sound).wav", "start": 18 },
+    { "file": "02-forest-breeze.mp3", "title": "Forest breeze", "note": "Air flowing through a living forest", "sourceTitle": "File:Wind in forest (Gravity Sound).wav", "start": 0 },
+    { "file": "03-dry-leaves.mp3", "title": "Dry leaves", "note": "Close, crisp rustling with fine detail", "sourceTitle": "File:Rustling leaves (Gravity Sound).wav", "start": 0 },
+    { "file": "04-green-shade.mp3", "title": "Green shade", "note": "Pine branches moving above a woodland floor", "sourceTitle": "File:Wind in sparren in het Vijlenerbos - SoundCloud - luc de bruijn.ogg", "start": 108 },
+    { "file": "05-autumn-hush.mp3", "title": "Autumn hush", "note": "Trees, soft birds, and an easy breeze", "sourceTitle": "File:Wind door de bomen en kwetteren van vogels - SoundCloud - Beeld en Geluid.ogg", "start": 120 }
+  ],
+  "tab_ocean_waves": [
+    { "file": "01-gentle-shore.mp3", "title": "Gentle shore", "note": "Warm ocean waves folding onto sand", "sourceTitle": "File:Ocean Waves on a Tropical Beach.ogg", "start": 46 },
+    { "file": "02-deep-tide.mp3", "title": "Deep tide", "note": "A broad, repeating sea swell", "sourceTitle": "File:Waves.ogg", "start": 54 },
+    { "file": "03-long-swell.mp3", "title": "Long swell", "note": "Atlantic surf with a slow natural pulse", "sourceTitle": "File:NausetBeach.ogg", "start": 90 },
+    { "file": "04-rock-pool.mp3", "title": "Rock pool", "note": "Pebbles rolling under small shore breaks", "sourceTitle": "File:On a pebble beach.ogg", "start": 0 },
+    { "file": "05-night-ocean.mp3", "title": "Night ocean", "note": "Close sea waves with darker low end", "sourceTitle": "File:Sea waves.wav", "start": 0 }
+  ],
+  "tab_train": [
+    { "file": "01-sleeper-car.mp3", "title": "Sleeper car", "note": "A full ride with steady wheel rhythm", "sourceTitle": "File:Complete train ride 4 minutes.ogg", "start": 28 },
+    { "file": "02-rail-rhythm.mp3", "title": "Rail rhythm", "note": "Train cars working along the track", "sourceTitle": "File:Taiwan railways EP727 train cars sounds.ogg", "start": 22 },
+    { "file": "03-window-seat.mp3", "title": "Window seat", "note": "A train decelerating toward the platform", "sourceTitle": "File:E231Deceleration.ogg", "start": 0 },
+    { "file": "04-distant-station.mp3", "title": "Distant station", "note": "Trains passing through a railway space", "sourceTitle": "File:Trains through a railwa.ogg", "start": 20 },
+    { "file": "05-night-express.mp3", "title": "Night express", "note": "A long train crossing open desert", "sourceTitle": "File:Train passing by in the Wirikuta Desert (Mexico, SLP).wav", "start": 32 }
+  ],
+  "tab_typing": [
+    { "file": "01-focused-keys.mp3", "title": "Focused keys", "note": "A full-size computer keyboard in use", "sourceTitle": "File:Computer keyboard.ogg", "start": 8 },
+    { "file": "02-quiet-office.mp3", "title": "Quiet office", "note": "Lighter laptop keystrokes at a desk", "sourceTitle": "File:Laptop keyboard.ogg", "start": 4 },
+    { "file": "03-soft-keyboard.mp3", "title": "Soft keyboard", "note": "Gentle keys with a close room tone", "sourceTitle": "File:Keyboard noise.ogg", "start": 0 },
+    { "file": "04-late-deadline.mp3", "title": "Late deadline", "note": "Mechanical typewriter keys and carriage", "sourceTitle": "File:WWS Typewriter.ogg", "start": 0 },
+    { "file": "05-studio-desk.mp3", "title": "Studio desk", "note": "A longer, relaxed typing session", "sourceTitle": "File:Getting set to chat.ogg", "start": 8 }
+  ],
+  "tab_foot_steps": [
+    { "file": "01-evening-walk.mp3", "title": "Evening walk", "note": "Footsteps in a large reverberant interior", "sourceTitle": "File:Church people walking steps with reverb.ogg", "start": 0 },
+    { "file": "02-stone-passage.mp3", "title": "Stone passage", "note": "A measured walk along a forest track", "sourceTitle": "File:Forest track.ogg", "start": 0 },
+    { "file": "03-rainy-steps.mp3", "title": "Rainy steps", "note": "Footsteps moving through rain and thunder", "sourceTitle": "File:Rain thunder steps.ogg", "start": 10 },
+    { "file": "04-slow-hallway.mp3", "title": "Slow hallway", "note": "A second walking rhythm with open ambience", "sourceTitle": "File:Forest track 2.ogg", "start": 0 },
+    { "file": "05-distant-walker.mp3", "title": "Distant walker", "note": "Soft boots crossing fresh snow", "sourceTitle": "File:Walking through snow.mp3", "start": 0 }
+  ],
+  "tab_birds": [
+    { "file": "01-dawn-chorus.mp3", "title": "Dawn chorus", "note": "A layered morning chorus in open air", "sourceTitle": "File:Réveil des oiseaux.ogg", "start": 22 },
+    { "file": "02-garden-birds.mp3", "title": "Garden birds", "note": "A lively magpie close to the garden", "sourceTitle": "File:Black-billed Magpie 202284459.wav", "start": 0 },
+    { "file": "03-forest-morning.mp3", "title": "Forest morning", "note": "Birds spread through a quiet natural ambience", "sourceTitle": "File:20090610 0 ambience.ogg", "start": 18 },
+    { "file": "04-single-songbird.mp3", "title": "Single songbird", "note": "Clear morning thrush calls", "sourceTitle": "File:Reggelirigók.ogg", "start": 48 },
+    { "file": "05-distant-flock.mp3", "title": "Distant flock", "note": "Nightingale, crickets, and a little wind", "sourceTitle": "File:Nightingale wind crickets - cut.ogg", "start": 76 }
+  ],
+  "tab_white_noise": [
+    { "file": "01-soft-static.mp3", "title": "Soft static", "note": "Balanced broadband white noise", "sourceTitle": "File:White noise.ogg", "start": 0 },
+    { "file": "02-deep-brown.mp3", "title": "Deep brown", "note": "Low-weighted noise for a softer edge", "sourceTitle": "File:Brown noise 15-00 69kbps.mp3", "start": 120 },
+    { "file": "03-airy-pink.mp3", "title": "Airy pink", "note": "Even pink noise with reduced high frequencies", "sourceTitle": "File:Pink noise.wav", "start": 0 },
+    { "file": "04-velvet-gray.mp3", "title": "Velvet gray", "note": "Perceptually balanced gray noise", "sourceTitle": "File:Gray noise.ogg", "start": 0 },
+    { "file": "05-sleep-layer.mp3", "title": "Sleep layer", "note": "A darker purple-noise texture", "sourceTitle": "File:Purple noise.ogg", "start": 0 }
+  ]
+}

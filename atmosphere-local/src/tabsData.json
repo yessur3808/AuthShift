@@ -1,0 +1,129 @@
+[
+    {
+      "id": "tab_rain",
+      "title": "Rain",
+      "icon": "data:image/svg+xml,%3Csvg stroke='%23fff' fill='none' stroke-width='2' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' class='text-7xl' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='16' y1='13' x2='16' y2='21'%3E%3C/line%3E%3Cline x1='8' y1='13' x2='8' y2='21'%3E%3C/line%3E%3Cline x1='12' y1='15' x2='12' y2='23'%3E%3C/line%3E%3Cpath d='M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25'%3E%3C/path%3E%3C/svg%3E",
+      "background": "rrainy-day.mp4",
+      "description": "Rainy day",
+      "levels": [1, 2, 3]
+    },
+    {
+      "id": "tab_coffee_shop",
+      "title": "Coffee Shop",
+      "icon": "coffee-icon.png",
+       "background": "coffee-shop.mp4",
+      "description": "Busy coffee shop",
+      "levels": [1, 2, 3]
+    },
+    {
+      "id": "tab_waterfall",
+      "title": "Waterfall",
+      "icon": "waterfall-icon.png",
+      "background": "waterfall.mp4",
+      "description": "Majestic waterfall",
+      "levels": [1, 2, 3]
+    },
+
+    {
+        "id": "tab_lightning",
+        "title": "Lightning",
+        "icon": "Lightning-icon.png",
+        "background": "lightning.mp4",
+        "description": "Majestic Lightning",
+        "levels": [1, 2, 3]
+      },
+
+      {
+        "id": "tab_wind",
+        "title": "Wind",
+        "icon": "Wind-icon.png",
+        "background": "windy.mp4",
+        "description": "Majestic Wind",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_fire",
+        "title": "Fire",
+        "icon": "Fire-icon.png",
+        "background": "fire.mp4",
+        "description": "Majestic Fire",
+        "levels": [1, 2, 3]
+      },
+
+
+
+      {
+        "id": "tab_snow",
+        "title": "Snow",
+        "icon": "Snow-icon.png",
+        "background": "snow.mp4",
+        "description": "Snow",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_street",
+        "title": "Street",
+        "icon": "Street-icon.png",
+        "background": "street.mp4",
+        "description": "Street Sounds",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_leaves",
+        "title": "Leaves",
+        "icon": "Leaves-icon.png",
+        "background": "leaves.mp4",
+        "description": "Majestic Leaves",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_ocean_waves",
+        "title": "Ocean Waves",
+        "icon": "Ocean-Waves-icon.png",
+        "background": "ocean.mp4",
+        "description": "Ocean Waves",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_train",
+        "title": "Train",
+        "icon": "Train-icon.png",
+        "background": "train.mp4",
+        "description": "Majestic Train",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_typing",
+        "title": "Typing",
+        "icon": "Typing-icon.png",
+        "background": "typing.mp4",
+        "description": "Majestic Keyboard",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_foot_steps",
+        "title": "Foot Steps",
+        "icon": "Foot-Steps-icon.png",
+        "background": "street.mp4",
+        "description": "Majestic Foot Steps",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_birds",
+        "title": "Bird Sounds",
+        "icon": "birds-icon.png",
+        "background": "birds.mp4",
+        "description": "Majestic Birds",
+        "levels": [1, 2, 3]
+      },
+      {
+        "id": "tab_white_noise",
+        "title": "White Noise",
+        "icon": "white-noise-icon.png",
+        "background": "white-noise.mp4",
+        "description": "Majestic Birds",
+        "levels": [1, 2, 3]
+      }
+
+    
+  ]
