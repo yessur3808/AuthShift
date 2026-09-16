@@ -37,6 +37,11 @@
     useAdaptive = forceAdaptive || constrainedNetwork || window.matchMedia("(max-width: 720px)").matches;
   }
 
+  function resolveVideoSource(source) {
+    if (/^https?:\/\//i.test(source || "")) return source;
+    return source ? `/assets/videos/${source}` : "";
+  }
+
   onMount(() => {
     connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
     updateMediaPreference();
@@ -46,7 +51,7 @@
   });
 
   $: selectedBackground = mediaReady ? (useAdaptive && adaptiveBackground ? adaptiveBackground : background) : "";
-  $: nextSource = selectedBackground ? `/assets/videos/${selectedBackground}` : "";
+  $: nextSource = resolveVideoSource(selectedBackground);
   $: if (videoElement && nextSource && nextSource !== activeSource) {
     activeSource = nextSource;
     activeView = "";

@@ -1,5 +1,6 @@
 import tabsData from "./tabsData.json";
 import audioSources from "../audio-sources.json";
+import videoSources from "./videoLoops.resolved.json";
 
 const meta = {
   tab_rain: ["Rain", "Weather", "Soft rain settling against the window.", "#83b7d2", "131, 183, 210"],
@@ -19,13 +20,6 @@ const meta = {
   tab_white_noise: ["Soft static", "Focus", "A quiet field with nothing asking for attention.", "#bac2cb", "186, 194, 203"],
 };
 
-const videoViews = [
-  { title: "Original view", start: 0, playbackRate: 1, scale: 1.025, position: "50% 50%" },
-  { title: "Close detail", start: 0.24, playbackRate: 0.92, scale: 1.18, position: "36% 48%" },
-  { title: "Slow drift", start: 0.52, playbackRate: 0.78, scale: 1.1, position: "64% 44%" },
-  { title: "Wide calm", start: 0.76, playbackRate: 0.88, scale: 1.045, position: "50% 62%" },
-];
-
 function withoutExtension(filename) {
   return filename.replace(/\.[^.]+$/, "");
 }
@@ -33,6 +27,10 @@ function withoutExtension(filename) {
 export const scenes = tabsData.map((scene) => {
   const [title, category, description, accent, accentRgb] = meta[scene.id] || [scene.title, "Atmosphere", scene.description, "#a9bfd0", "169, 191, 208"];
   const mediaName = withoutExtension(scene.background);
+  const sourcedLoops = videoSources[scene.id] || [];
+  const replacesLegacyOriginal = scene.id === "tab_foot_steps";
+  const originalSource = replacesLegacyOriginal ? sourcedLoops[0] : null;
+  const alternateLoops = replacesLegacyOriginal ? sourcedLoops.slice(1) : sourcedLoops;
   return {
     ...scene,
     title,
@@ -45,13 +43,31 @@ export const scenes = tabsData.map((scene) => {
       id: `${scene.id}-audio-${index}`,
       src: `/assets/audio/${scene.id.replace(/^tab_/, "")}/${track.file}`,
     })),
-    videoLoops: videoViews.map((view, index) => ({
-      id: `${scene.id}-video-${index}`,
-      title: view.title,
-      background: scene.background,
-      adaptiveBackground: `adaptive/${mediaName}-720.mp4`,
-      poster: `posters/${mediaName}.jpg`,
-      ...view,
-    })),
+    videoLoops: [
+      {
+        id: `${scene.id}-video-0`,
+        title: originalSource?.title || "Original scene",
+        background: originalSource?.high || scene.background,
+        adaptiveBackground: originalSource?.adaptive || `adaptive/${mediaName}-720.mp4`,
+        poster: `posters/${mediaName}.jpg`,
+        source: originalSource?.source,
+        start: 0,
+        playbackRate: 1,
+        scale: 1.025,
+        position: "50% 50%",
+      },
+      ...alternateLoops.map((loop, index) => ({
+        id: `${scene.id}-video-${index + 1}`,
+        title: loop.title,
+        background: loop.high,
+        adaptiveBackground: loop.adaptive,
+        poster: `posters/${mediaName}.jpg`,
+        source: loop.source,
+        start: 0,
+        playbackRate: 1,
+        scale: 1.025,
+        position: "50% 50%",
+      })),
+    ],
   };
 });

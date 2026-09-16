@@ -246,10 +246,10 @@
 </script>
 
 <svelte:head>
-  <title>Atmosphere — Immersive ambient sounds & visual scenes</title>
+  <title>Atmosphere — Ambient Sounds & Cinematic Nature Videos</title>
   <meta
     name="description"
-    content="Focus, relax, sleep, or reset with immersive ambient sounds, high-quality visual loops, and calming rain, ocean, fire, café, nature, and white-noise scenes."
+    content="Stream immersive rain, ocean, fireplace, café, forest and white-noise soundscapes with cinematic video loops for focus, relaxation, sleep and study."
   />
 </svelte:head>
 
@@ -402,7 +402,9 @@
             max="1"
             step="0.01"
             value={volume}
+            style={`--volume-percent: ${Math.round(volume * 100)}%`}
             aria-label="Audio volume"
+            aria-valuetext={`${Math.round(volume * 100)} percent`}
             on:input={updateVolume}
           />
           <output>{Math.round(volume * 100)}</output>
@@ -895,12 +897,72 @@
   }
 
   .volume-row input {
+    appearance: none;
+    -webkit-appearance: none;
     width: 100%;
-    min-height: 28px;
-    accent-color: var(--accent);
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    outline: none;
+    background: transparent;
     cursor: pointer;
     touch-action: pan-y;
   }
+
+  .volume-row input::-webkit-slider-runnable-track {
+    height: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    background:
+      linear-gradient(90deg, rgba(var(--accent-rgb), 0.92) 0 var(--volume-percent), rgba(255, 255, 255, 0.1) var(--volume-percent) 100%);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.38), 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .volume-row input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -7px;
+    border: 1px solid rgba(255, 255, 255, 0.68);
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at 36% 30%, #fff 0 18%, rgba(255, 255, 255, 0.93) 44%, rgba(var(--accent-rgb), 0.9) 100%);
+    box-shadow: 0 0 0 4px rgba(var(--accent-rgb), 0.12), 0 5px 14px rgba(0, 0, 0, 0.42), inset 0 1px 0 #fff;
+    transition: transform 160ms ease, box-shadow 260ms ease;
+  }
+
+  .volume-row input::-moz-range-track {
+    height: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.38);
+  }
+
+  .volume-row input::-moz-range-progress {
+    height: 8px;
+    border-radius: 999px;
+    background: rgba(var(--accent-rgb), 0.92);
+  }
+
+  .volume-row input::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.68);
+    border-radius: 50%;
+    background: rgba(var(--accent-rgb), 0.96);
+    box-shadow: 0 0 0 4px rgba(var(--accent-rgb), 0.12), 0 5px 14px rgba(0, 0, 0, 0.42), inset 0 1px 0 #fff;
+    transition: transform 160ms ease, box-shadow 260ms ease;
+  }
+
+  .volume-row input:hover::-webkit-slider-thumb,
+  .volume-row input:focus-visible::-webkit-slider-thumb { transform: scale(1.1); box-shadow: 0 0 0 6px rgba(var(--accent-rgb), 0.18), 0 6px 18px rgba(0, 0, 0, 0.46), inset 0 1px 0 #fff; }
+  .volume-row input:hover::-moz-range-thumb,
+  .volume-row input:focus-visible::-moz-range-thumb { transform: scale(1.1); box-shadow: 0 0 0 6px rgba(var(--accent-rgb), 0.18), 0 6px 18px rgba(0, 0, 0, 0.46), inset 0 1px 0 #fff; }
+  .volume-row input:active::-webkit-slider-thumb { transform: scale(0.92); }
+  .volume-row input:active::-moz-range-thumb { transform: scale(0.92); }
   .volume-row output { color: rgba(255, 255, 255, 0.88); font-variant-numeric: tabular-nums; text-align: right; }
 
   .option-section { margin-top: 24px; }
